@@ -1,9 +1,15 @@
 # GraphQL POC
 
-Run the Kafka consumer.
-Run `node index.js`
+Run the [Kafka Consumer](https://github.com/isaCarvalho/kafka-consumer-poc).
+Run
 
-# Query example
+```
+$ nvm use v12.22.12
+$ npm install
+$ node index.js
+```
+
+## Query example
 
 ```
 query {
